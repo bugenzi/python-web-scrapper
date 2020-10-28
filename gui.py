@@ -1,6 +1,7 @@
 import index
 import tkinter
 
+
 root = tkinter.Tk()
 canvas1 = tkinter.Canvas(root, width=400, height=300)
 heading = tkinter.Text(root, width=400, height=20)
