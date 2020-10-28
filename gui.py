@@ -1,7 +1,6 @@
 import index
 import tkinter
 
-
 root = tkinter.Tk()
 canvas1 = tkinter.Canvas(root, width=400, height=300)
 heading = tkinter.Text(root, width=400, height=20)
@@ -9,6 +8,11 @@ canvas1.pack()
 
 entry1 = tkinter.Entry(root)
 entry2 = tkinter.Entry(root)
+
+entry1.insert(0, "URL")
+entry2.insert(1, "Direction")
+
+entry1.bind("<Button-1>", )
 
 canvas1.create_window(200, 140, window=entry1)
 canvas1.create_window(200, 30, window=entry2)
